@@ -182,6 +182,9 @@ if(isset($options['file'])){
     }else if($extension == 'xml'){
         // call read xml function
         $output = read_xml($file);
+    }else{
+        print 'File extension must be csv,json or xml.';
+        return false;
     }
 
     if($output){
