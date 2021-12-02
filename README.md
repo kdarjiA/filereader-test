@@ -1,5 +1,10 @@
 # filereader-test
 
+How to Install
+---------------
+- Clone the project.
+- Run the command for autoload files: composer install.
+
 How to Run
 -----------
 - Please put/upload uploadable files in the root directory.
